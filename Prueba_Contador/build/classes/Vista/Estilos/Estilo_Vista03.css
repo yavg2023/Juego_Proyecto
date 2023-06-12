@@ -1,0 +1,11 @@
+.selected-incorrect {
+    -fx-text-fill: red;
+}
+
+.selected-incorrect .check-box {
+    -fx-mark: url('/Vista/Img/error.png');
+}
+
+.check-box {
+    -fx-mark: url('/Vista/Img/verdadero.png');
+}

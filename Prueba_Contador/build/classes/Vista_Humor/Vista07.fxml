@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Humor.ControllerVista07">
+   <children>
+      <ImageView fitHeight="450.0" fitWidth="643.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/home.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="inicio" layoutX="222.0" layoutY="373.0" mnemonicParsing="false" onAction="#handleVistaInicioButton" prefHeight="51.0" prefWidth="157.0" style="-fx-background-color: #25EEBA; -fx-text-fill: black; -fx-font-size: 24; -fx-font-family: Berlin Sans FB; -fx-background-radius: 15;" text="Finalizar" />
+      <Label layoutX="159.0" layoutY="26.0" prefHeight="67.0" prefWidth="329.0" text="¡Has Ganado!">
+         <font>
+            <Font name="Comic Sans MS Bold" size="48.0" />
+         </font></Label>
+      <ImageView fitHeight="216.0" fitWidth="213.0" layoutX="200.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/Trofeo_1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="150.0" layoutY="300.0" prefHeight="67.0" prefWidth="346.0" text="¡Felicitaciones!">
+         <font>
+            <Font name="Comic Sans MS Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Prueba_Contador.jnlp">
+  <information>
+    <title>Prueba_Contador</title>
+    <vendor>Yuly Villamil</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Prueba_Contador.jar" size="2800653" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="Juego_Clase_Principal.Prueba_Contador"  name="Prueba_Contador" />
+  <update check="always"/>
+</jnlp>
