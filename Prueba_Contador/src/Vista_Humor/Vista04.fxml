@@ -14,7 +14,7 @@
             <Image url="@../Vista/Img/home.png" />
          </image>
       </ImageView>
-      <Label contentDisplay="CENTER" layoutX="54.0" layoutY="76.0" prefHeight="78.0" prefWidth="520.0" text=" ¡Perdiste!, Vuelve iniciar ">
+      <Label contentDisplay="CENTER" layoutX="46.0" layoutY="52.0" prefHeight="78.0" prefWidth="520.0" text=" ¡Perdiste!, Vuelve iniciar ">
          <font>
             <Font name="Berlin Sans FB" size="48.0" />
          </font>
@@ -23,9 +23,14 @@
          <font>
             <Font name="Berlin Sans FB" size="18.0" />
          </font></Button>
-      <ImageView fitHeight="197.0" fitWidth="247.0" layoutX="190.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="197.0" fitWidth="247.0" layoutX="190.0" layoutY="132.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Vista/Img/perdiste.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="152.0" layoutX="446.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/mal_01.png" />
          </image>
       </ImageView>
    </children>

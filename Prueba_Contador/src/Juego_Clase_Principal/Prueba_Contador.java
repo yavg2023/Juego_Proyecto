@@ -32,7 +32,7 @@ public class Prueba_Contador extends Application {
 
         Scene scene = new Scene(root);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Aplicacion saludo 1.0");
+        primaryStage.setTitle("HAPPY GAME");
         primaryStage.show();
     }
     

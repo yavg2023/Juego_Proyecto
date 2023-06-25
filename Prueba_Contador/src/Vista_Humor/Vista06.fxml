@@ -17,7 +17,7 @@
             <Image url="@../Vista/Img/home.png" />
          </image>
       </ImageView>
-      <Label fx:id="preguntasLabel" layoutX="18.0" layoutY="64.0" prefHeight="100.0" prefWidth="564.0" style="-fx-background-color: black;" text="   Porque vomito la luna..." textAlignment="CENTER" textFill="#fffafa">
+      <Label fx:id="preguntasLabel" layoutX="18.0" layoutY="64.0" prefHeight="100.0" prefWidth="564.0" style="-fx-background-color: #CD693E;" text="   Porque vomito la luna..." textAlignment="CENTER" textFill="#fffafa">
          <font>
             <Font name="Arial" size="18.0" />
          </font>
@@ -66,6 +66,11 @@
             <Font name="Consolas" size="16.0" />
          </font>
       </Label>
-      <Button layoutX="224.0" layoutY="386.0" mnemonicParsing="false" onAction="#verificarRespuesta" prefHeight="39.0" prefWidth="152.0" style="-fx-background-color: black; -fx-text-fill: white; -fx-font-size: 18; -fx-font-family: Inter;" text="Siguiente" />
+      <Button layoutX="224.0" layoutY="386.0" mnemonicParsing="false" onAction="#verificarRespuesta" prefHeight="39.0" prefWidth="152.0" style="-fx-background-color: #CD693E; -fx-text-fill: white; -fx-font-size: 18; -fx-font-family: Inter;" text="Siguiente" />
+      <ImageView fitHeight="183.0" fitWidth="164.0" layoutX="376.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/Pensando_01.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

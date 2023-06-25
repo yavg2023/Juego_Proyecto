@@ -159,7 +159,7 @@ public class ControllerVista06 {
 
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Vista 7");
+            primaryStage.setTitle("HAPPY GAME");
     }
         
         
@@ -172,7 +172,7 @@ public class ControllerVista06 {
 
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Vista 4");
+            primaryStage.setTitle("HAPPY GAME");
     }
     
 

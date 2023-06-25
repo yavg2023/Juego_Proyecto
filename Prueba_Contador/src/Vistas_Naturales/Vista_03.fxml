@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Naturales.Controller_Vista03">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="625.0" layoutX="-2.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/home.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Continuar" layoutX="233.0" layoutY="373.0" mnemonicParsing="false" onAction="#handleVista10_Button" prefHeight="41.0" prefWidth="155.0" style="-fx-background-color: #25EEBA; -fx-text-fill: black; -fx-font-size: 18; -fx-font-family: Berlin Sans FB;" text="Continuar">
+         <font>
+            <Font name="Berlin Sans FB" size="24.0" />
+         </font>
+      </Button>
+      <Label contentDisplay="CENTER" graphicTextGap="5.0" layoutX="180.0" layoutY="37.0" prefHeight="97.0" prefWidth="264.0" text="¡Felicidades! " textAlignment="JUSTIFY" AnchorPane.bottomAnchor="335.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="179.0" AnchorPane.topAnchor="37.0">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="117.0" text=" Avanzaste al Nivel 2">
+         <font>
+            <Font name="Berlin Sans FB" size="48.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="212.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/Carafeliz.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="125.0" layoutX="480.0" layoutY="327.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Vista/Img/feliz.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

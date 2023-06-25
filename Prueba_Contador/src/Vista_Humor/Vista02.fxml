@@ -7,24 +7,24 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Humor.ControllerVista02">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller_Humor.ControllerVista02" >
    <children>
       <ImageView fitHeight="447.0" fitWidth="604.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../Vista/Img/home.png" />
          </image>
       </ImageView>
-      <Button layoutX="71.0" layoutY="260.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="225.0" style="-fx-background-color: #8AD15E; -fx-font-family: Inter; -fx-font-size: 24;" text="Geografia">
+      <Button layoutX="71.0" layoutY="260.0" mnemonicParsing="false" prefHeight="75.0" onAction="#handleVista_03_Button" prefWidth="225.0" style="-fx-background-color: #8AD15E; -fx-font-family: Inter; -fx-font-size: 24;" text="Geografia">
          <font>
             <Font name="Berlin Sans FB" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="322.0" layoutY="143.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="225.0" style="-fx-background-color: #8AD15E; -fx-font-family: Inter; -fx-font-size: 24;" text="Matematicas">
+      <Button layoutX="322.0" layoutY="143.0" mnemonicParsing="false" onAction="#handleVista_02_Button"  prefHeight="75.0" prefWidth="225.0" style="-fx-background-color: #8AD15E; -fx-font-family: Inter; -fx-font-size: 24;" text="Matematicas">
          <font>
             <Font name="Berlin Sans FB" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="71.0" layoutY="143.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="225.0" style="-fx-background-color: #8AD15E; -fx-font-size: 24; -fx-font-family: Inter;" text="Naturales">
+      <Button layoutX="71.0" layoutY="143.0" mnemonicParsing="false" onAction="#handleVista_01_Button"  prefHeight="75.0" prefWidth="225.0" style="-fx-background-color: #8AD15E; -fx-font-size: 24; -fx-font-family: Inter;" text="Naturales">
          <font>
             <Font name="Berlin Sans FB" size="14.0" />
          </font>

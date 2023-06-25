@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Prueba_Contador.jar" size="2800653" download="eager" />
+    <jar href="Prueba_Contador.jar" size="3605872" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="Juego_Clase_Principal.Prueba_Contador"  name="Prueba_Contador" />
   <update check="always"/>

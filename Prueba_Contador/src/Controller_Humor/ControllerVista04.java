@@ -34,7 +34,7 @@ public class ControllerVista04 {
 
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
-            primaryStage.setTitle("Vista 2");
+            primaryStage.setTitle("HAPPY GAME");
        
     }
 
